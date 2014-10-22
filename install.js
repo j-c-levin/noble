@@ -29,8 +29,9 @@ if (platform === 'darwin') {
 
     process.exit(code);
   });
-} else if (platform === 'windows 8') {
+} else if (platform === 'win32') {
 	console.error('using windows 8');
+	console.error('noble install: Your platform is not supported...for now');
 	} else {
 	console.error('noble install: Your platform is not supported!');
 	process.exit(-1);
